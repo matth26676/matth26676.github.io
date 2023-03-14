@@ -1,0 +1,166 @@
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What I have Learned!</title>
+    <style>
+        #background {
+            width: auto;
+            height: 100%;
+            min-width: 300px;
+            background-image: linear-gradient(rgb(95, 158, 160), rgb(0, 0, 255));
+        }
+
+        #page {
+            width: 95%;
+            height: 940px;
+            min-width: 300px;
+            background-image: linear-gradient(rgb(95, 158, 160), rgb(0, 0, 255));
+            display: flex;
+            justify-content: space-around;
+            position: absolute;
+            margin: 0.75%;
+        }
+
+        .pageselection {
+            width: fit-content;
+            background-color: rgb(0, 255, 255);
+            height: fit-content;
+            border: 2px thick rgb(0, 0, 255);
+            border-radius: 10%;
+            box-shadow: 5px 5px rgb(2, 190, 190);
+        }
+
+        #pageselectionwrap {
+            width: 7.5%;
+            align-self: center;
+            display: grid;
+            height: 15%;
+            top: 5%;
+            position: absolute;
+            left: 48%;
+        }
+
+        .topic {
+            margin: 40px;
+            padding: 5px;
+            width: 40%;
+            background-color: rgb(0, 98, 179);
+            height: 40%;
+            border: 5px double rgb(0, 0, 255);
+            box-shadow: 10px 10px 10px rgb(0, 0, 90);
+        }
+
+        .example {
+            margin: 40px;
+            padding: 5px;
+            width: 40%;
+            background-color: rgb(21, 108, 179);
+            height: 40%;
+            border: 5px double rgb(0, 0, 255);
+            box-shadow: 10px 10px 10px rgb(0, 0, 90);
+            
+        }
+
+        .content {
+            margin: 20px;
+            padding: 5px;
+            width: 89%;
+            background-color: rgb(36, 99, 151);
+            height: 40%;
+            position: absolute;
+            top: 50%;
+            border: 5px double rgb(0, 0, 255);
+            box-shadow: 10px 10px 10px rgb(0, 0, 90);
+        }
+
+        @media screen and (max-width: 800px) {
+            #background {
+                display: block;
+                padding: auto;
+                width: auto;
+            }
+
+            .topic {
+                width: 60%;
+                font-size: 75%;
+                margin: 0px;
+                padding: 0px;
+                height: 45%;
+                position: absolute;
+                left: 40%;
+            }
+            .example {
+                width: 40%;
+                font-size: 75%;
+                margin: 0px;
+                padding: 0px;
+                height: 42.5%;
+                position: absolute;
+                right: 60%;
+                top: 2.5%;
+            }
+            .content {
+                margin: 0px;
+                padding: 0px;
+                width: 100%;
+                height: 45%;
+                top: 45%;
+            }
+
+            #pageselectionwrap {
+            width: 40%;
+            align-self:flex-start;
+            display:flex;
+            height: 2.5%;
+            top: 0%;
+            right: 60%;
+            left: 0%;
+            }
+
+            .pageselection {
+                font-size: 100%;
+                height: 100%;
+                width: 100%;
+                text-align: center;
+            }
+
+            .pagelink {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="background">
+        <div id="page">
+            <div id="pageselectionwrap">
+                <div class="pageselection"><a href="Portfolio Page Design Main Page.html">Back</a></div>
+            </div>
+            <div class="pageselection"><a href="Portfolio Page Design Page.html" class="pagelink">Personal
+                Interests</a></div>
+                <div class="pageselection"><a href="Portfolio Page Design Page.html" class="pagelink">Personal
+                    Interests</a></div>
+                    <div class="pageselection"><a href="Portfolio Page Design Page.html" class="pagelink">Personal
+                        Interests</a></div>
+                        
+            <div class="example">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis velit rutrum, vestibulum quam
+                pulvinar,
+                faucibus eros. Quisque lacinia dignissim diam, sit amet laoreet risus vulputate vitae. Vestibulum sed
+                ullamcorper purus, pharetra consequat quam. Etiam eget diam lectus. Aliquam pellentesque consectetur
+                turpis,
+                eget rutrum arcu. Phasellus sed nibh dignissim, auctor neque vitae, mollis turpis. Phasellus molestie,
+                augue
+                eu iaculis volutpat, sapien enim blandit nisi, sit amet fermentum mauris sapien mollis dui. Phasellus
+                mollis
+                eros ac vehicula fringilla. Curabitur elementum laoreet tempus. Integer eleifend aliquam hendrerit.
+            </div>
+            <div class="topic"><h1>What I have learned!</h1></div>
+            <nav class="content">Hi</nav>
+        </div>
+    </nav>
+</body>
+
+</html>
