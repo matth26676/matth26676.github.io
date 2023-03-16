@@ -74,6 +74,19 @@
             box-shadow: 10px 10px 10px rgb(0, 0, 90);
         }
 
+        #textborder {
+            width: fit-content;
+            height: fit-content;
+            border: 3px solid rgb(0, 255, 255) 
+        }
+
+        #textborder2 {
+            width: fit-content;
+            height: fit-content;
+            border: 5px rgb(0, 255, 255);
+            border-style: double solid double solid;
+        }
+
         @media screen and (max-width: 800px) {
             #background {
                 display: block;
@@ -86,8 +99,10 @@
                 font-size: 75%;
                 margin: 0px;
                 padding: 0px;
-                height: 45%;
+                height: 51%;
                 position: absolute;
+                display: block;
+                box-shadow: 5px 5px 5px;
                 left: 40%;
             }
 
@@ -96,7 +111,7 @@
                 font-size: 75%;
                 margin: 0px;
                 padding: 0px;
-                height: 42.5%;
+                height: 48.5%;
                 position: absolute;
                 right: 60%;
                 top: 2.5%;
@@ -107,7 +122,7 @@
                 padding: 0px;
                 width: 100%;
                 height: 45%;
-                top: 45%;
+                top: 52.5%;
             }
 
             #pageselectionwrap {
@@ -121,14 +136,26 @@
             }
 
             .pageselection {
-                font-size: 100%;
-                height: 100%;
-                width: 100%;
-                text-align: center;
+                font-size: 58%;
+                height: auto;
             }
 
             .pagelink {
                 text-align: center;
+            }
+
+            #topicpicture {
+                height: 125px;
+                width: 200px;
+            }
+            
+            #page {
+                height: 660px;
+            }
+            
+            .pictureresize {
+                width: 100%;
+                height: 50%;
             }
         }
     </style>
@@ -148,21 +175,14 @@
                         Personal Interests</a></div>
             </div>
             <div class="example">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis velit rutrum, vestibulum quam
-                pulvinar,
-                faucibus eros. Quisque lacinia dignissim diam, sit amet laoreet risus vulputate vitae. Vestibulum sed
-                ullamcorper purus, pharetra consequat quam. Etiam eget diam lectus. Aliquam pellentesque consectetur
-                turpis,
-                eget rutrum arcu. Phasellus sed nibh dignissim, auctor neque vitae, mollis turpis. Phasellus molestie,
-                augue
-                eu iaculis volutpat, sapien enim blandit nisi, sit amet fermentum mauris sapien mollis dui. Phasellus
-                mollis
-                eros ac vehicula fringilla. Curabitur elementum laoreet tempus. Integer eleifend aliquam hendrerit.
+                <p id="textborder">some text with a border</p>
+                <p><b>some text that is bold</b></p>
+                <p id="textborder2">some text that has two types of borders!</p>
             </div>
             <div class="topic">
                 <h1>What I have learned!</h1>
             </div>
-            <nav class="content">Hi</nav>
+            <nav class="content">Overall, throughout this programming class I have learned many things about programming/coding such as how to create a border for objects, how to make a gradient background, how to change the position of objects on a page, how to link things, and how to put images on the page!</nav>
         </div>
     </nav>
 </body>

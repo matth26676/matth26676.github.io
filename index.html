@@ -78,6 +78,11 @@
             float: right;
         }
 
+        #border1 {
+            width: fit-content;
+            border: 2px solid rgb(0, 255, 255);
+        }
+
         @media screen and (max-width: 800px) {
             #background {
                 display: block;
@@ -90,7 +95,7 @@
                 font-size: 75%;
                 margin: 0px;
                 padding: 0px;
-                height: 45%;
+                height: 51%;
                 position: absolute;
                 display: block;
                 box-shadow: 5px 5px 5px;
@@ -102,7 +107,7 @@
                 font-size: 75%;
                 margin: 0px;
                 padding: 0px;
-                height: 42.5%;
+                height: 48.5%;
                 position: absolute;
                 right: 60%;
                 top: 2.5%;
@@ -113,7 +118,7 @@
                 padding: 0px;
                 width: 100%;
                 height: 45%;
-                top: 45%;
+                top: 52.5%;
             }
 
             #pageselectionwrap {
@@ -139,6 +144,15 @@
                 height: 125px;
                 width: 200px;
             }
+            
+            #page {
+                height: 660px;
+            }
+            
+            .pictureresize {
+                width: 100%;
+                height: 50%;
+            }
         }
     </style>
 </head>
@@ -157,23 +171,14 @@
                         Interests</a></div>
             </div>
             <div class="example">
-                /Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis velit rutrum, vestibulum quam
-                pulvinar,
-                faucibus eros. Quisque lacinia dignissim diam, sit amet laoreet risus vulputate vitae. Vestibulum sed
-                ullamcorper purus, pharetra consequat quam. Etiam eget diam lectus. Aliquam pellentesque consectetur
-                turpis,
-                eget rutrum arcu. Phasellus sed nibh dignissim, auctor neque vitae, mollis turpis. Phasellus molestie,
-                augue
-                eu iaculis volutpat, sapien enim blandit nisi, sit amet fermentum mauris sapien mollis dui. Phasellus
-                mollis
-                eros ac vehicula fringilla. Curabitur elementum laoreet tempus. Integer eleifend aliquam hendrerit.
+                <p id="border1">Here is a border around some text!</p> <img src="pictures/images (1).png" class="pictureresize" alt="Smiley Face">
             </div>
-            <nav class="topic"><img src="Pictures/Screenshot 2023-03-14 103719.png" alt="RPG Maker" height="40%"
+            <nav class="topic"><img class="pictureresize" src="Pictures/Screenshot 2023-03-14 103719.png" alt="RPG Maker" height="40%"
                     width="40%" id="topicpicture">
                 <h2>Hello there and welcome to my website! This is a portfolio of all the code I learned this quarter!
                 </h2>
             </nav>
-            <nav class="content"></nav>
+            <nav class="content">I made this webpage from scratch and I hope that you enjoy using the webpage! I have many different feature such as a navigation bar, some borders, and even a background gradient! I have put a ot of time into this webpage so I hope you appreciate it!</nav>
         </div>
     </nav>
 </body>

@@ -74,6 +74,12 @@
             box-shadow: 10px 10px 10px rgb(0, 0, 90);
         }
 
+        #imgborder {
+            width: 125px;
+            height: 25%;
+            border: 5px solid rgb(0, 255, 255);
+        }
+
         @media screen and (max-width: 800px) {
             #background {
                 display: block;
@@ -86,8 +92,10 @@
                 font-size: 75%;
                 margin: 0px;
                 padding: 0px;
-                height: 45%;
+                height: 51%;
                 position: absolute;
+                display: block;
+                box-shadow: 5px 5px 5px;
                 left: 40%;
             }
 
@@ -96,7 +104,7 @@
                 font-size: 75%;
                 margin: 0px;
                 padding: 0px;
-                height: 42.5%;
+                height: 48.5%;
                 position: absolute;
                 right: 60%;
                 top: 2.5%;
@@ -107,7 +115,7 @@
                 padding: 0px;
                 width: 100%;
                 height: 45%;
-                top: 45%;
+                top: 52.5%;
             }
 
             #pageselectionwrap {
@@ -121,14 +129,26 @@
             }
 
             .pageselection {
-                font-size: 100%;
-                height: 100%;
-                width: 100%;
-                text-align: center;
+                font-size: 58%;
+                height: auto;
             }
 
             .pagelink {
                 text-align: center;
+            }
+
+            #topicpicture {
+                height: 125px;
+                width: 200px;
+            }
+            
+            #page {
+                height: 660px;
+            }
+
+            .pictureresize {
+                width: 50%;
+                height: 50%;
             }
         }
     </style>
@@ -148,21 +168,12 @@
                         Personal Interests</a></div>
             </div>
             <div class="example">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis velit rutrum, vestibulum quam
-                pulvinar,
-                faucibus eros. Quisque lacinia dignissim diam, sit amet laoreet risus vulputate vitae. Vestibulum sed
-                ullamcorper purus, pharetra consequat quam. Etiam eget diam lectus. Aliquam pellentesque consectetur
-                turpis,
-                eget rutrum arcu. Phasellus sed nibh dignissim, auctor neque vitae, mollis turpis. Phasellus molestie,
-                augue
-                eu iaculis volutpat, sapien enim blandit nisi, sit amet fermentum mauris sapien mollis dui. Phasellus
-                mollis
-                eros ac vehicula fringilla. Curabitur elementum laoreet tempus. Integer eleifend aliquam hendrerit.
+                <p>Here is a picture with a border!</p> <img id= "imgborder" class="pictureresize" src="Pictures/images (2).png" alt="Smiley Face">
             </div>
             <div class="topic">
                 <h1>My Achievements!</h1>
             </div>
-            <nav class="content">Hi</nav>
+            <nav class="content">There have been many achievements that I have made and have been proud of during this marking period. Some can include the Div, Flex, and CSS Builder, My RPG Maker game, and this Project!</nav>
         </div>
     </nav>
 </body>
